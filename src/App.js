@@ -15,7 +15,7 @@ const socialLinks = [
 const App = () => (
   <div className="app">
     <div className='container'>
-    <Header logoSrc="path/to/logo" tagLine="Jon Moniker" />
+    <Header logoSrc="logo.png" tagLine="Miami DJ/Producer 🌴"/>
     <main>
       {linkData.map((link, idx) => (
         <LinkCard key={idx} linkData={link} />

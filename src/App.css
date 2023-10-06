@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -33,13 +34,14 @@ header {
 }
 
 header img {
-  max-width: 150px;
+  max-width: 300px;
 }
 
 header h1 {
-  margin: 10px 0;
+  margin: -10px 0 10px 0;
   color: #FFF;
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: normal;
 }
 
 .link-card {
@@ -113,10 +115,6 @@ header, main, footer {
     padding: 0px 40px;
   }
   
-  header h1 {
-    font-size: 32px;
-  }
-
   .link-card {
     margin: 15px 0;
     padding: 15px;
