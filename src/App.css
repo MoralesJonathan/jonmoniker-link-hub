@@ -113,10 +113,6 @@ header, main, footer {
 }
 
 @media (min-width: 600px) {
-  .app {
-    padding: 0px 40px;
-  }
-  
   .link-card {
     margin: 15px 0;
     padding: 15px;
