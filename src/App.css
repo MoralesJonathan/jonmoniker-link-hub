@@ -10,9 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
-  background-attachment: fixed;
-  background-size: cover;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   padding: 0px 20px;
 }
 
