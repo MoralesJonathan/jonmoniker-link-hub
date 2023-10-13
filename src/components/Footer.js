@@ -6,7 +6,7 @@ const Footer = ({ year, socialLinks }) => (
     <div>
       {socialLinks.map((link, idx) => (
         <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer">
-          {link.name}
+          <i class={`la${link.brand?'b':'r'} la-${link.icon}`} title={link.name}></i>
         </a>
       ))}
     </div>

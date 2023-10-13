@@ -9,9 +9,10 @@ const linkData = [
 ];
 
 const socialLinks = [
-  { name: 'Instagram', url: 'https://instagram.com/jonmoniker' },
-  { name: 'SoundCloud', url: 'https://soundcloud.com/jonmoniker' },
-  { name: 'Email', url: 'mailto:hello@jonmoniker.com' }
+  { name: 'SoundCloud', url: 'https://soundcloud.com/jonmoniker', icon: 'soundcloud', brand: true},
+  { name: 'Instagram', url: 'https://instagram.com/jonmoniker', icon: 'instagram', brand: true },
+  { name: 'Facebook', url: 'https://facebook.com/jonmoniker', icon: 'facebook-f', brand: true},
+  { name: 'Email', url: 'mailto:hello@jonmoniker.com', icon: 'envelope' }
 ];
 
 const App = () => (
