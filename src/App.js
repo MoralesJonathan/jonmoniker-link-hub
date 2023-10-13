@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import './App.css'; // Importing CSS to style your components
 
 const linkData = [
-  { thumbnail: 'blahblahart.jpg', title: 'PRESAVE BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Presave now!', url: 'https://ffm.to/cdyshk018', ctaText: 'PRESAVE' }
+  { thumbnail: 'blahblahart.jpg', title: 'Presave BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Presave now!', url: 'https://ffm.to/cdyshk018', ctaText: 'Presave' }
 ];
 
 const socialLinks = [
