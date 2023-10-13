@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import LinkCard from './components/LinkCard';
 import Footer from './components/Footer';
-import './App.css'; // Importing CSS to style your components
+import './App.css'; 
 
 const linkData = [
   { thumbnail: 'blahblahart.jpg', title: 'Presave BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Presave now!', url: 'https://ffm.to/cdyshk018', ctaText: 'Presave' }

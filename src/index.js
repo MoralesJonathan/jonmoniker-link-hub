@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './particles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div class="animation-wrapper">
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+    </div>
     <App />
   </React.StrictMode>
 );
