@@ -39,7 +39,7 @@ header img {
 header h1 {
   margin: -10px 0 10px 0;
   color: #FFF;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: normal;
 }
 
@@ -131,7 +131,7 @@ header, main, footer {
   }
   
   .link-card h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .link-card p {
