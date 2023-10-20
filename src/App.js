@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import './App.css'; 
 
 const linkData = [
-  { thumbnail: 'blahblahart.jpg', title: 'Presave BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Presave now!', url: 'https://ffm.to/cdyshk018', ctaText: 'Presave' }
+  { thumbnail: 'blahblahart.jpg', title: 'BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Stream now!', url: 'https://ffm.to/cdyshk018', ctaText: 'STREAM' }
 ];
 
 const socialLinks = [
