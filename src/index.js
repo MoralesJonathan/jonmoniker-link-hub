@@ -8,11 +8,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <App />
     <div class="animation-wrapper">
       <div class="particle particle-2"></div>
       <div class="particle particle-3"></div>
     </div>
-    <App />
   </React.StrictMode>
 );
 
