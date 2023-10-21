@@ -6,7 +6,7 @@ const LinkCard = ({ linkData }) => {
 
   useEffect(() => {
     if (showIframe && cardRef.current) {
-      const cardTop = cardRef.current.offsetTop - 20;
+      const cardTop = cardRef.current.offsetTop - 10;
       const cardContentHeight = cardRef.current.querySelector(".link-card-content").offsetHeight;
       const footerHeight = document.querySelector("footer").offsetHeight;
       const paddingMarginHeight = 60;

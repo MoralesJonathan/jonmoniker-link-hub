@@ -24,8 +24,8 @@ const App = () => (
         <LinkCard key={idx} linkData={link} />
       ))}
     </main>
-    <Footer year={new Date().getFullYear()} socialLinks={socialLinks} />
     </div>
+    <Footer year={new Date().getFullYear()} socialLinks={socialLinks} />
   </div>
 );
 
