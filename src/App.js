@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import './App.css'; 
 
 const linkData = [
+  { thumbnail: 'twistandshout.jpg', title: 'Twist and Shout Bootleg', subtitle: 'Bootleg of the beatles!', url: 'https://releases.jonmoniker.com/twist-and-shout-bootleg', ctaText: 'DOWNLOAD', embed: false },
   { thumbnail: 'blahblahart.jpg', title: 'BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Stream now!', url: 'https://ffm.to/cdyshk018', ctaText: 'STREAM', embed: true }
 ];
 
