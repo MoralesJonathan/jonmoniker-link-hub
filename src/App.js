@@ -17,6 +17,8 @@ const socialLinks = [
   { name: 'Email', url: 'mailto:hello@jonmoniker.com', icon: 'envelope' }
 ];
 
+const ua =  navigator.userAgent.toLowerCase();
+
 const App = () => (
   <div className="app">
     <div className='container'>
@@ -26,6 +28,9 @@ const App = () => (
         <LinkCard key={idx} linkData={link} />
       ))}
     </main>
+      {ua.includes("instagram") && ua.includes("android")?
+        <a id="mobile_deeplink" className='cta-button' href={window.location.href} target='_blank' download>Open in browser</a> :
+        ""}
     </div>
     <Footer year={new Date().getFullYear()} socialLinks={socialLinks} />
   </div>
