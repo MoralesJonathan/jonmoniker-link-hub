@@ -40,6 +40,21 @@ header h1 {
   font-size: 28px;
   font-weight: normal;
 }
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a i {
+  font-size: 30px;
+}
 
 .link-card {
   background-color: white;

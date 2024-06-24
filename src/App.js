@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Nav from './components/Nav';
 import LinkCard from './components/LinkCard';
 import Footer from './components/Footer';
 import './App.css'; 
@@ -11,11 +12,19 @@ const linkData = [
 ];
 
 const socialLinks = [
+  { name: 'Spotify', url: 'https://open.spotify.com/artist/3UB5BJZN8VcGlOSmG5U3Yt?si=3KX3gcB3QMaeusDK7GVZGw', icon: 'spotify', brand: true},
+  { name: 'Apple Music', url: 'https://music.apple.com/us/artist/jon-moniker/1712851999', icon: 'apple', brand: true},
   { name: 'SoundCloud', url: 'https://soundcloud.com/jonmoniker', icon: 'soundcloud', brand: true},
   { name: 'Instagram', url: 'https://instagram.com/jonmoniker', icon: 'instagram', brand: true },
-  { name: 'Facebook', url: 'https://facebook.com/jonmoniker', icon: 'facebook-f', brand: true},
-  { name: 'Email', url: 'mailto:hello@jonmoniker.com', icon: 'envelope' }
+  { name: 'Facebook', url: 'https://facebook.com/jonmoniker', icon: 'facebook', brand: true},
 ];
+
+const footerLinks = [
+  { name: 'Email', url: 'mailto:hello@jonmoniker.com', icon: 'envelope' },
+  { name: 'Instagram', url: 'https://instagram.com/jonmoniker', icon: 'instagram', brand: true },
+  { name: 'Spotify', url: 'https://open.spotify.com/artist/3UB5BJZN8VcGlOSmG5U3Yt?si=3KX3gcB3QMaeusDK7GVZGw', icon: 'spotify', brand: true}
+];
+
 
 const ua =  navigator.userAgent.toLowerCase();
 
@@ -23,6 +32,7 @@ const App = () => (
   <div className="app">
     <div className='container'>
     <Header logoSrc="logo.png" tagLine="Miami DJ/Producer 🌴"/>
+    <Nav socialLinks={socialLinks}/>
     <main>
       {linkData.map((link, idx) => (
         <LinkCard key={idx} linkData={link} />
@@ -32,7 +42,7 @@ const App = () => (
         <a id="mobile_deeplink" className='cta-button' href={window.location.href} target='_blank' download>Open in browser</a> :
         ""}
     </div>
-    <Footer year={new Date().getFullYear()} socialLinks={socialLinks} />
+    <Footer year={new Date().getFullYear()} socialLinks={footerLinks} />
   </div>
 );
 
