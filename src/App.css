@@ -99,10 +99,11 @@ nav a i {
 }
 
 .cta-button {
-  background-color: #f0f0f0;
+  background-color: transparent;
+  box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 5%);
   color: #1e1e1e;
   padding: 10px;
-  border: none;
+  border: 1px solid #cfcdcd;
   border-radius:5px;
   cursor: pointer;
   text-decoration: none;
@@ -197,4 +198,19 @@ header, main, footer {
 
 .iframe-container iframe {
   width: 100%;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .link-card {
+      background-color: #101013;
+      color: white;
+  }
+  .link-card p {
+    color: #bfbfbf;
+  }
+  .cta-button {
+    background-color: transparent;
+    color: white;
+  }
 }
