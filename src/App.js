@@ -8,7 +8,8 @@ import './App.css';
 const linkData = [
   { thumbnail: 'TFR022.jpg', title: 'Pressure Pleasure', subtitle: 'My latest release on The Forgotten Records!', url: 'https://releases.jonmoniker.com/pressurepleasure', ctaText: 'STREAM', embed: true },
   { thumbnail: 'twistandshout.jpg', title: 'Twist and Shout Bootleg', subtitle: 'Bootleg of the beatles!', url: 'https://releases.jonmoniker.com/twist-and-shout-bootleg', ctaText: 'DOWNLOAD', embed: false },
-  { thumbnail: 'blahblahart.jpg', title: 'BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Stream now!', url: 'https://ffm.to/cdyshk018', ctaText: 'STREAM', embed: true }
+  { thumbnail: 'blahblahart.jpg', title: 'BLAH BLAH', subtitle: 'My first official release as Jon Moniker. Stream now!', url: 'https://ffm.to/cdyshk018', ctaText: 'STREAM', embed: true },
+  { thumbnail: 'gmail.png', title: 'Book Me', subtitle: `Let's talk about performing at your show!`, url: 'mailto:bookings@jonmoniker.com', ctaText: 'BOOK', embed: false }
 ];
 
 const socialLinks = [
