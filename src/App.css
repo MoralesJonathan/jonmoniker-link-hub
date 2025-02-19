@@ -71,7 +71,7 @@ nav a i {
 }
 
 .link-card:last-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .link-card img {
@@ -101,8 +101,9 @@ nav a i {
 .cta-button {
   background-color: transparent;
   box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 5%);
-  color: #1e1e1e;
+  color: #ffffff;
   padding: 10px;
+  margin-bottom: 50px;
   border: 1px solid #cfcdcd;
   border-radius:5px;
   cursor: pointer;
@@ -211,6 +212,5 @@ header, main, footer {
   }
   .cta-button {
     background-color: transparent;
-    color: white;
   }
 }
