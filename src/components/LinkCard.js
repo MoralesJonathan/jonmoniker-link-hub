@@ -38,7 +38,7 @@ const LinkCard = ({ linkData }) => {
         )}
       </div>
       {linkData.embed && (
-        <div className="iframe-container">
+        <div className="iframe-container" style={{ maxHeight: linkData.embedHeight ? linkData.embedHeight : 'auto' }}>
         {showIframe && (
           <iframe src={linkData.url} title={linkData.title} />
           )}
