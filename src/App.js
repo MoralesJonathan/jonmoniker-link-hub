@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import './App.css'; 
 
 const linkData = [
-  { thumbnail: 'werkIt.webp', title: 'Werk It', subtitle: 'Newest Collab with Zack & Egosum on Klexos Records!', url: 'https://open.spotify.com/track/3G1Ihf1kMK4H2LlpG0Dz9Z', ctaText: 'STREAM', embed: false },
+  { thumbnail: 'werkIt.webp', title: 'Werk It', subtitle: 'Newest Collab with Zack & Egosum on Klexos Records!', url: 'https://releases.jonmoniker.com/werk-it', ctaText: 'STREAM', embed: true },
   { thumbnail: 'GAH.jpg', title: 'GIMME A HUG [EDIT]', subtitle: 'Free edit of Drake\'s GIMME A HUG!', url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2037532480&color=%23ff1d00&auto_play=true&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true', ctaText: 'STREAM/DL', embed: true },
   { thumbnail: 'TFR022.jpg', title: 'Pressure Pleasure', subtitle: 'My latest release on The Forgotten Records!', url: 'https://releases.jonmoniker.com/pressurepleasure', ctaText: 'STREAM', embed: true },
   { thumbnail: 'twistandshout.jpg', title: 'Twist and Shout Bootleg', subtitle: 'Bootleg of the beatles!', url: 'https://releases.jonmoniker.com/twist-and-shout-bootleg', ctaText: 'DOWNLOAD', embed: false },
